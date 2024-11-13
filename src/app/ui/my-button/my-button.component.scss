@@ -1,0 +1,14 @@
+button{
+padding: 10px;
+background-color: rgb(221, 152, 4);
+color: white;
+cursor: pointer;
+font-size: 12px;
+font-weight: 800;
+border-radius: 5px;
+width: 150px;
+border: none;
+&:hover{
+opacity: 0.7;
+}
+}

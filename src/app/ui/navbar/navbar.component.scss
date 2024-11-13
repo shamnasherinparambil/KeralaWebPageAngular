@@ -1,0 +1,29 @@
+.navbar{
+  width: 270px;
+  background: black;
+  opacity: 0.8;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  }
+.contents{
+display: flex;
+flex-direction: column;
+
+p{
+text-align: center;
+padding-left: 50px;
+// font-weight: 800;
+
+}
+a{
+text-decoration: none;
+color: white;
+&:hover{
+color: rgb(211, 204, 204);
+}
+}
+
+}
