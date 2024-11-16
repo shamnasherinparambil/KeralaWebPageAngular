@@ -1,0 +1,18 @@
+
+<owl-carousel-o [options]="customOptions">
+  @for(item of data; track item.id)
+  {
+    @if(item.category==cat){
+  <h1>{{ cat }}</h1>
+
+  <ng-template carouselSlide [id]=item.id>
+<div class="card-conatainer">
+  <app-product-card [cards]=item></app-product-card>
+</div>
+
+  </ng-template>
+
+  }
+}
+</owl-carousel-o>
+

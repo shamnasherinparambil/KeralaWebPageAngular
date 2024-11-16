@@ -1,0 +1,11 @@
+<div class="du-container">
+<h1>Experion Technologies - Delivery Units</h1>
+
+</div>
+<div class="card-container">
+  @for (item of cardContent; track item.id) {
+    <app-my-cards image={{item.image}} description={{item.discription}} title={{item.districtName}}></app-my-cards>
+    } @empty {
+    <li>There are no items.</li>
+    }
+</div>

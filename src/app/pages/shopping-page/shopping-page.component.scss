@@ -1,0 +1,30 @@
+.shoping-list-container{
+padding-top: 100px;
+background:linear-gradient(to bottom, #000000, #98969b);
+
+}
+.shopping-items{
+    display: flex;
+    overflow-x: auto;
+    padding: 30px;
+    gap: 30px;
+    white-space: nowrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    scrollbar-width: none;
+}
+h1{
+  text-transform: capitalize;
+padding-left: 40px;
+color: rgb(111, 150, 3);
+}
+.shopping-cards{
+h1{
+color: rgb(4, 4, 48);
+padding: 20px;
+font-size: 3rem;
+font-weight: 800;
+padding-left: 30px;
+text-transform: capitalize;
+}
+}

@@ -1,0 +1,9 @@
+<div class="shoping-list-container">
+  <div class="shoping-cards">
+    @for(category of catagories;track category.catagories){
+    <h1>{{ category }}</h1>
+      <app-new-carousel cat={{category}}></app-new-carousel>
+
+    }
+  </div>
+</div>

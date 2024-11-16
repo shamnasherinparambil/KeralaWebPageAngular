@@ -1,0 +1,17 @@
+.du-container{
+
+h1{
+text-align: center;
+color: rgb(27, 27, 102);
+padding-top: 90px;
+padding-bottom: 20px;
+font-weight: 800;
+}
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 0 20px;
+  padding: 20px;
+}

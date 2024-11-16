@@ -1,0 +1,70 @@
+<div class="full-container">
+  <div class="home" id="home">
+    <div class="home-content">
+      <h3>Hi, Iam</h3>
+      <h2>Shamna Sherin P</h2>
+      <h3>Web Developer</h3>
+    </div>
+  </div>
+
+  <div class="about" id="about">
+    <h2 class="style-h2">About Me</h2>
+    <div class="about-content">
+      <div class="about-left">
+        <img src="images/aboutimg.png" alt="about image" />
+      </div>
+      <div class="about-right">
+        <p>
+          Aspiring software engineer skilled in web and mobile application
+          development, with a passion for creating intuitive user experiences.
+          Always eager to learn and explore new technologies to solve real-world
+          challenges.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="skills">
+    <h2 class="style-h2">Skills</h2>
+    <div class="skill-cards">
+      @for (item of cardContent; track item.id) {
+      <app-my-cards
+        image="{{ item.image }}"
+        description="{{ item.discription }}"
+        title="{{ item.districtName }}"
+      ></app-my-cards>
+      } @empty {
+      <li>There are no items.</li>
+      }
+    </div>
+  </div>
+<div class="projects-container">
+  <h2 class="style-h2">Projects</h2>
+<div class="project-cards">
+  @for (item of projectCard; track item.id) {
+    <app-my-cards
+      image="{{ item.image }}"
+      description="{{ item.discription }}"
+      title="{{ item.districtName }}"
+    ></app-my-cards>
+    } @empty {
+    <li>There are no items.</li>
+    }
+</div>
+</div>
+  <div class="academics-container">
+    <h2 class="style-h2">Academics</h2>
+<div class="academic-cards">
+  @for (item of academicCard; track item.id) {
+    <app-my-cards
+      image="{{ item.image }}"
+      description="{{ item.discription }}"
+      title="{{ item.districtName }}"
+    ></app-my-cards>
+    } @empty {
+    <li>There are no items.</li>
+    }
+
+</div>
+  </div>
+  <app-my-contact></app-my-contact>
+</div>

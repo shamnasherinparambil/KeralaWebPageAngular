@@ -1,0 +1,99 @@
+/* .........Contact.......... */
+.row{
+  display: flex;
+  justify-content: space-evenly;
+flex-direction: row;
+}
+.contact-left{
+  margin-top: 50px;
+width: 40%;
+  /* flex-basis: 35%; */
+}
+.contact-right{
+  margin-top: 50px;
+  margin-left: 50px;
+
+  /* flex-basis: 65%; */
+   width: 50%;
+}
+.contact-left p{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ababab;
+&:hover{
+color: #CCD20C;
+}
+
+}
+.contact-left p i{
+  color: #CCD20C;
+  margin-right: 15px;
+  font-size: 25px;
+
+}
+.contact-left p a{
+  color: #ababab;
+}
+.social-media{
+  margin-top: 30px;
+}
+.social-media a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition:transform 0.5s ;
+}
+
+.social-media a:hover,
+.contact-left p a:hover{
+  color: #CCD20C;
+  transform: translateY(-5px);
+
+}
+.btn{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #CCD20C;
+  padding: 10px 50px;
+  border-radius: 6px;
+  text-decoration: nne;
+  color: #D9D9D9;
+  display: inline-block;
+  background: #464605;
+
+
+}
+.style-h2{
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.contact-right form{
+  width: 100%;
+}
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #110f0f;
+  font-size:18px;
+  border-radius: 6px;
+
+
+}
+.btn2:hover{
+  background: #495514;
+}
+
+.navbar i{
+  display: none;
+}

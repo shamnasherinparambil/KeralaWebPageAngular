@@ -1,0 +1,29 @@
+.card img{
+min-height:300px;
+max-height:300px ;
+}
+
+.btn{
+  background: rgb(185, 185, 7);
+  color: white;
+  border: 1px solid yellow;
+  &:hover{
+  background-color: yellowgreen;
+  }
+  }
+  .card{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  &:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+  }
+  }
+.card-title{
+color: black;
+}
+.card-body{
+background: rgb(228, 202, 202);
+}

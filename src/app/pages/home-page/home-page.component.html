@@ -1,0 +1,34 @@
+<div class="main-conatiner">
+  <app-navbar></app-navbar>
+  </div>
+<app-my-carosal></app-my-carosal>
+<div class="about-kerala">
+  <h3>About</h3>
+  <h1>Kerala</h1>
+  <hr>
+  <p>Kerala is renowned for some of its unique cultural and geographical characteristics. The practices and traditions handed down from generation to generation, alongside some of the natural wonders have attracted people to this land for centuries.<br><br>
+  Kerala is situated at the southwestern end of the Indian subcontinent. Kerala has a long history of art and cultural heritage and foreign trade with other countries. The state with the highest literacy rate in India is noted for its achievements in education, health, gender equality, social justice, law and order. In addition to these, the state has the lowest infant mortality rate in the country.<br><br>
+
+
+    Kerala lies between the Arabian Sea in the West and the Western Ghats (Sahyadris) in the East with an area of 38863 sq km. It is one of the five states in the linguistic-cultural area known as South India. The neighbouring states of Kerala are Tamil Nadu and Karnataka. Mayyazhi (Mahe / Mahe) is a part of Pondicherry (Puducherry) and lies within Kerala. Though the Lakshadweep in the Arabian Sea is part of the Union Territories, it has a close alliance with the linguistic and cultural heritage of Kerala.
+
+  <br><br>
+  Kerala is one of the most scenic and popular tourist destinations in India. It is also famous for its special ayurvedic therapies and its backwaters. Kerala also leads other states in Industrial development and per capita income. The state is a significant exporter of coir, spices, marine products, cashew, coffee and pickles. New business opportunities in Kerala can be explored as two-thirds of the state's export income comes from the food processing industry.
+
+    With a coastline of nearly 590 km, Kerala has a major port at Kochi (with a cruise terminal) and 16 smaller ports along the coast. Potential investors can identify many new investment opportunities in Kerala. The state is very close to the global maritime trade route passing through the Indian Ocean region with Kochi International Container Trans-shipment Terminal (ICT) at Vallarpadam, India's first ICT. Kerala is the first state in India to have four international airports, namely in Kochi, Kozhikode, Thiruvananthapuram and Kannur.</p>
+  </div>
+<div class="about-kerala">
+  <h3>Kearala</h3>
+  <h1>Districts</h1>
+<hr>
+<div class="card-container">
+  @for (item of cardContent; track item.id) {
+    <app-my-cards image={{item.image}} description={{item.discription}} title={{item.districtName}}></app-my-cards>
+    } @empty {
+    <li>There are no items.</li>
+    }
+</div>
+
+</div>
+
+
